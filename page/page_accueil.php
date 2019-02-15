@@ -2,12 +2,12 @@
 <html>
 	<head> <meta charset = utf-8>
 		<title> Urban Farm</title>
-		<link rel = "stylesheet" href = "urbanfarm/style.css"/>
+		<link rel = "stylesheet" href = "style.css"/>
 	</head>
 	<body>
 		<div id="page">
 			<div id="header"> 
-				<img src = "urbanfarm/img/logo.png" height="100" alt="logo"/>
+				<img src = "img/logo.png" height="100" alt="logo"/>
 			</div>
 			<div id="corps">
 				<div id ="nav">
