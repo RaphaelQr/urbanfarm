@@ -30,15 +30,15 @@
 			</div>
 			<div id ="footer">
 				<figure id="image">
-					<img  src = "img/contact.png" height="50"/>
+					<a href="page_contact.php"><img  src = "img/contact.png" height="50"/></a>
 					<figcaption>Contact</figcaption>
 				</figure>
 				<figure id="image">
-					<img src = "img/forum.png" height="45"/>
+					<a href="page_forum.php"><img src = "img/forum.png" height="45"/></a>
 					<figcaption>Forum</figcaption>
 				</figure>
 				<figure id="image">
-					<img src = "img/boutique.png" height="50"/>
+					<a href="page_boutique.php"><img src = "img/boutique.png" height="50"/></a>
 					<figcaption>Boutique</figcaption>
 				</figure>
 				
