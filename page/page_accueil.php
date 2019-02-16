@@ -4,11 +4,10 @@
 		<title> Urban Farm</title>
 		<link rel = "stylesheet" href = "style.css"/>
 	</head>
+	<header>
+		<?php include("elem/elem_entete.php"); ?>
+	</header>
 	<body>
-		<div id="page">
-			<div id="header"> 
-				<img src = "img/logo.png" height="100" alt="logo"/>
-			</div>
 			<div id="corps">
 				<div id ="nav">
 					<form method="post" action="cible.php">
@@ -27,38 +26,9 @@
 						Nam vitae efficitur mi. Vivamus pretium augue ut varius ornare. Nunc ac feugiat ipsum. Pellentesque et neque purus. Sed sollicitudin maximus fringilla. Sed dignissim lacus nisi, ut tristique ligula pulvinar vitae. Nulla facilisi. Sed ut felis leo. Etiam vitae dui auctor, egestas urna quis, scelerisque ligula. Morbi maximus mollis est quis venenatis. Cras ac justo pretium, ornare mauris sit amet, gravida enim. Maecenas tincidunt elit quis risus pellentesque, non convallis tortor porttitor.
 					</p>
 				</div>
-			</div>
-			<div id ="footer">
-				<figure id="image">
-					<a href="page_contact.php"><img  src = "img/contact.png" height="50" title="Contact"/></a>
-					<figcaption>Contact</figcaption>
-				</figure>
-				<figure id="image">
-					<a href="page_forum.php"><img src = "img/forum.png" height="45" title="Forum"/></a>
-					<figcaption>Forum</figcaption>
-				</figure>
-				<figure id="image">
-					<a href="page_boutique.php"><img src = "img/boutique.png" height="50" title="Boutique"/></a>
-					<figcaption>Boutique</figcaption>
-				</figure>
-				
-				
-				
-				
-			</div>
 		</div>
-
 	</body>
-
-
-
-
-
-
-
-
-
-
-
-
+	<footer>
+		<?php include("elem/elem_pied.php"); ?>
+	</footer>
 </html>
