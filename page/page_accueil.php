@@ -10,13 +10,22 @@
 	<body>
 			<div id="corps">
 				<div id ="nav">
-					<form method="post" action="cible.php">
+					<form method="post" action="page_commande.php">
 						<p>
+							Nom d'utilisateur
+							<br/>
 							<input type="text" name="pseudo"/>
+							<br/>
+							Mot de passe
+							<br/>
 							<input type="text" name="mot de passe"/>
 							<br/>
 							<input type="submit" value="valider"/>
 						</p>
+					</form>
+					<br/>
+					<form action="page_inscription.php">
+						<input type="submit" value="Nouvel Utilisateur">
 					</form>
 				</div>
 				<div id = "contenu">
