@@ -12,11 +12,11 @@
 				<div id ="nav">
 					<form method="post" action="page_commande.php">
 						<p>
-							Nom d'utilisateur
+							<label for="name">Nom d'utilisateur :</label>
 							<br/>
 							<input type="text" name="pseudo"/>
 							<br/>
-							Mot de passe
+							<label for="name">Mot de passe :</label>
 							<br/>
 							<input type="text" name="mot de passe"/>
 							<br/>
