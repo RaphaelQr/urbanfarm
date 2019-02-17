@@ -18,7 +18,7 @@
 							<br/>
 							<label for="name">Mot de passe :</label>
 							<br/>
-							<input type="text" name="mot de passe"/>
+							<input type="password" name="mot de passe"/>
 							<br/>
 							<input type="submit" value="valider"/>
 						</p>
