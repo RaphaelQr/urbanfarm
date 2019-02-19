@@ -8,7 +8,7 @@
 		<?php include("elem/elem_entete.php"); ?>
 	</header>
 	<body>
-
+		<?php include("elem/elem_menu.php"); ?>
 	</body>
 	<footer>
 		<?php include("elem/elem_pied.php"); ?>
