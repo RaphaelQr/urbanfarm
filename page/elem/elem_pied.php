@@ -3,6 +3,10 @@
 	<figcaption>Contact</figcaption>
 </figure>
 <figure id="image">
+	<a href="page_actualite.php"><img src = "img/journal.png" height="50" title="Actualites"/></a>
+	<figcaption>Actualites</figcaption>
+</figure>
+<figure id="image">
 	<a href="page_forum.php"><img src = "img/forum.png" height="45" title="Forum"/></a>
 	<figcaption>Forum</figcaption>
 </figure>
