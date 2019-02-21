@@ -8,26 +8,8 @@
 		<?php include("elem/elem_entete.php"); ?>
 	</header>
 	<body>
+		<?php include("elem/elem_menu.php"); ?>
 			<div id="corps">
-				<div id ="nav">
-					<form method="post" action="page_commande.php">
-						<p>
-							<label for="name">Nom d'utilisateur :</label>
-							<br/>
-							<input type="text" name="pseudo"/>
-							<br/>
-							<label for="name">Mot de passe :</label>
-							<br/>
-							<input type="password" name="mot de passe"/>
-							<br/>
-							<input type="submit" value="valider"/>
-						</p>
-					</form>
-					<br/>
-					<form action="page_inscription.php">
-						<input type="submit" value="Nouvel Utilisateur">
-					</form>
-				</div>
 				<div id = "contenu">
 					<h2> A propos de nous</h2>
 					<p>
